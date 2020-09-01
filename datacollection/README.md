@@ -40,3 +40,32 @@
 `<subject>` 爬取的文献的科目
 
 `<APIkey>`你的APIkey (请从斯普林格官网获取)
+
+### 基于ftp协议从云服务器上下载语料库
+
+#### 环境要求
+
+`python==3.5 +`
+
+`paramiko==2.7.2`
+
+#### 运行
+
+`python aliyun_to_colab.py <host> <port> <username> <password> <local_dir> <remote_dir> <start_loc> <end_loc>`
+
+`<host>`主机地址
+
+`<port>`端口号
+
+`<username>`username
+
+`<password>`密码
+
+`<local_dir>`本地文件夹
+
+`<remote_dir>`远程主机对应的文件夹
+
+`<start_loc>`开始下载文件的位置
+
+`<end_loc>`终止下载文件的位置
+
