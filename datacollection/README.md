@@ -69,3 +69,9 @@
 
 `<end_loc>`终止下载文件的位置
 
+### 句子分割
+
+#### 运行
+
+`python segment_sentence.py <start_loc> <end_loc> <input_dir> <output_dir>`
+
