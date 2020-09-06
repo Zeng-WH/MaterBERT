@@ -75,3 +75,10 @@
 
 `python segment_sentence.py <start_loc> <end_loc> <input_dir> <output_dir>`
 
+### 正则变化预处理文献
+
+为了更好地使spaCy分割句子，我们采用正则变化先对文章进行处理，将图片的标记全部移除；去除全是大写的较长的无意义字符串；去除部分日期；去除表格标记；去除开头的版权信息等。
+
+#### 运行
+
+`python re_match.py <start_loc> <end_loc> <input_dir> <output_dir>`
